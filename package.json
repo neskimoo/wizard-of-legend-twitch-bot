@@ -1,0 +1,19 @@
+{
+  "name": "wizard-of-legend-twitch-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kieran Nestor",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "memcached": "^2.2.2",
+    "request": "^2.86.0",
+    "twitch-bot": "^1.2.5"
+  }
+}
